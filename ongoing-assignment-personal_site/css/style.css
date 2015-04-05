@@ -1,0 +1,81 @@
+.header1 {
+	margin-top: 0px;
+	border:2px solid gray;
+	padding:10px;
+	width:50%;
+	display: block;
+	background: rgb(92, 92, 94);
+	font-family: 'lato'sans-serif;
+	color: white;
+	font-size: 40px;
+	opacity: 0.8;
+}
+
+.me {
+	float: left;
+	width: 15%;
+	margin: 3px;
+}
+
+.icon-smile:before {
+    content: "\e9e1";
+}
+.bodyimg {
+	background-image: url("../cityview.jpg");
+	background-color: gray;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+
+	
+}
+
+.latofont {
+	font-family: 'lato'sans-serif;
+	color: white;
+	font-size: 20px;
+	opacity: 0.7;
+}
+
+#upper {
+	text-transform: uppercase;
+}
+/*
+.p1font {
+	font-family: 'Vollkorn', serif;
+	color: white;
+	font-size: 30px;
+	opacity: 0.3;
+}
+*/
+
+/*
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?pkni2z');
+	src:url('fonts/icomoon.eot?#iefixpkni2z') format('embedded-opentype'),
+		url('fonts/icomoon.woff?pkni2z') format('woff'),
+		url('fonts/icomoon.ttf?pkni2z') format('truetype'),
+		url('fonts/icomoon.svg?pkni2z#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+/*
+.icon-grin:before {
+	content: "\e9e9";
+}
+*/
